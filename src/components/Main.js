@@ -56,7 +56,7 @@ class Main extends React.Component {
             words[label] = [];
           }
 
-          if(cell !== null && cell.v !== null)
+          if(cell !== null && cell.v !== null && cell.v.trim() !== '')
             words[label].push(cell.v);
         }
       });
