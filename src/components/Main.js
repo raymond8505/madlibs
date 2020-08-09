@@ -283,7 +283,7 @@ class Main extends React.Component {
             </li>
             <li>
               <strong>One or more words aren't replacing</strong><br />
-              Check your spelling in the sentence as well as in the sheet ex: {`{nouns} in the sentence, but noun in the sheet`} 
+              Check your spelling in the sentence as well as in the sheet ex: {`{`}noun<strong>s</strong>{`}`} in the sentence, but noun in the sheet
             </li>
           </ul>
         </div>
