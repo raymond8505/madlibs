@@ -1,0 +1,48 @@
+.WordList
+{
+    flex-grow: 1;
+
+    ul,dd
+    {
+        text-align: left;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+}
+.WordList__label
+{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    background-color: #eee;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    border-left: none;
+    
+}
+.WordList__label,
+.WordList li
+{
+    padding: .2em .5em;
+    
+}
+
+.WordList li
+{
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+}
+
+.WordList:first-child
+{
+    li
+    {
+        border-left: 1px solid #ededed;
+    }
+
+    .WordList__label
+    {
+        border-left: 1px solid #ddd;
+    }
+}

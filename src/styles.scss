@@ -1,0 +1,37 @@
+body
+{
+  font-family: Roboto, Helvetica, _sans;
+  font-size: 16px;
+  padding: 1vw;
+  margin: 0;
+}
+
+input
+{
+  border: 2px solid lightgrey;
+  padding: .2em .4em;
+}
+
+*
+{
+  box-sizing: border-box;
+}
+
+h2,h3,h4,h5,h6
+{
+  color: #555;
+}
+
+button
+{
+  background-color: lightgreen;
+  border: none;
+  font-weight: bold;
+  padding: .8em 1.2em;
+  text-transform: uppercase;
+  display: inline-block;
+  box-shadow: 0 0 .5em rgba(black,.3);
+}
+
+@import "css/Main";
+@import "css/WordList";
