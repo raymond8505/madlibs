@@ -271,7 +271,7 @@ class Main extends React.Component {
             <li>Set the sharing permissions on the sheet that everyone with a link can edit</li>
             <li>Paste the sheet's link into the <em>Google Sheet URL</em> field and click <em>Get Words</em></li>
             <li>If you did everything right, the word list will populate</li>
-            <li>Write your sentence, marking words you want to randomize from their list with curly braces <strong>{`{}`}</strong>, ex: {`The {adjective} {noun} jumps over the {adjective} {noun}`}</li>
+            <li>Under <em>Sentence Output</em> write your sentence, marking words you want to randomize from their list with curly braces <strong>{`{}`}</strong>, ex: {`The {adjective} {noun} jumps over the {adjective} {noun}`}</li>
             <li>Click <em>Generate Sentence</em> to generate a sentence with random new words</li>
           </ol>
 
